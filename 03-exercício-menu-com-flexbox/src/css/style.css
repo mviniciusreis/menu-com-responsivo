@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 40px;
+    background-color: #5BC241;
+    color: white;
+}
+
+button {
+    border: 0;
+    width: 127px;
+    height: 39px;
+    border-radius: 10px;
+    background-color: #5BC241;
+}
+
+button a {
+    color: white;
+}
+

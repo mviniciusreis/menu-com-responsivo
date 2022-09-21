@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+    header {
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+    .header {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .menu {
+        display: block;
+        margin-top: 30px;
+	    text-align: center;
+    }
+
+    .menu li {
+        margin-left: 0;
+	    text-align: center;
+    }
+
+    .menu a{
+        padding: 20px;
+        display: block;        
+    }
+
+    li .sobre {
+        display: flex;
+        width: 233px;
+        height: 45px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    li button {
+        display: flex;
+        width: 151px;
+        height: 45px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
